@@ -116,3 +116,40 @@ header {
 		}
 	}
 }
+
+.skills{
+	padding-bottom: 6.875rem;
+	h2{
+		padding-bottom: 4.3rem;
+	}
+	.skills__text{
+		text-align: center;
+		font-family: "Gilroy-Medium";
+		font-size: 1.125rem;
+		padding-bottom: 5.25rem;
+	}
+	.skills__programms{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		.skills__one{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			img{
+				margin-bottom: 1.5rem;
+			}
+			.skills__name{
+				margin-bottom: 2.5rem;
+				color: $grey-color
+			}
+			.skills__stars{
+				.grey-star{
+					color: $grey-color
+				}
+			}
+		}
+	}
+}

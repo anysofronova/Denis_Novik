@@ -112,4 +112,39 @@ header img {
 .about .about__text p {
   font-family: "Gilroy-Medium";
   padding-bottom: 1rem;
+}
+
+.skills {
+  padding-bottom: 6.875rem;
+}
+.skills h2 {
+  padding-bottom: 4.3rem;
+}
+.skills .skills__text {
+  text-align: center;
+  font-family: "Gilroy-Medium";
+  font-size: 1.125rem;
+  padding-bottom: 5.25rem;
+}
+.skills .skills__programms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills .skills__programms .skills__one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .skills__programms .skills__one img {
+  margin-bottom: 1.5rem;
+}
+.skills .skills__programms .skills__one .skills__name {
+  margin-bottom: 2.5rem;
+  color: #828282;
+}
+.skills .skills__programms .skills__one .skills__stars .grey-star {
+  color: #828282;
 }/*# sourceMappingURL=style.css.map */
