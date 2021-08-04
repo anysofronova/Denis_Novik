@@ -20,7 +20,7 @@
 
 $grey-color: #828282;
 $black-color: #070707;
-$bg-color: #F6F6F6;
+$bg-color: #f6f6f6;
 
 * {
 	box-sizing: border-box;
@@ -58,7 +58,7 @@ input {
 	padding: 0 15.625rem;
 	padding-top: 7.5rem;
 }
-h2{
+h2 {
 	text-align: center;
 	font-size: 2.125rem;
 	font-family: "Gilroy-Bold";
@@ -96,10 +96,23 @@ header {
 			}
 		}
 	}
-	img{
+	img {
 		width: 100%;
 		padding-bottom: 6.25rem;
 	}
 }
 
-
+.about {
+	background-color: $bg-color;
+	padding-bottom: 6.68rem;
+	h2 {
+		padding-bottom: 1.125rem;
+	}
+	.about__text {
+		text-align: center;
+		p {
+			font-family: "Gilroy-Medium";
+			padding-bottom: 1rem;
+		}
+	}
+}
