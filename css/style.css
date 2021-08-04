@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/gilroy-bold.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/gilroy-bold.woff2") format("woff2"), url("../fonts/gilroy-bold.woff") format("woff"), url("../fonts/gilroy-bold.ttf") format("truetype"), url("../fonts/gilroy-bold.svg#gilroy-bold") format("svg");
+  /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroy-medium.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/gilroy-medium.woff2") format("woff2"), url("../fonts/gilroy-medium.woff") format("woff"), url("../fonts/gilroy-medium.ttf") format("truetype"), url("../fonts/gilroy-medium.svg#gilroy-medium") format("svg");
+  /* Chrome < 4, Legacy iOS */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy-Bold";
+  color: #070707;
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #828282;
+}
+a:hover {
+  color: #070707;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  padding: 0 15.625rem;
+  padding-top: 7.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.125rem;
+  font-family: "Gilroy-Bold";
+}
+
+header {
+  padding: 0 15.625rem;
+}
+header .nav .nav__menu {
+  padding: 2rem 0;
+  border-bottom: 1px solid #828282;
+}
+header .nav .nav__menu .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+header .info {
+  display: flex;
+  padding: 2.5rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+header .info .info__name {
+  font-size: 2.9588rem;
+}
+header .info .info__bio {
+  font-family: "Gilroy-Medium";
+  font-size: 1.125rem;
+}
+header .info .info__lang {
+  color: #828282;
+}
+header .info .info__lang .ret {
+  position: relative;
+  transform: rotate(-90deg);
+  right: -40%;
+}
+header img {
+  width: 100%;
+  padding-bottom: 6.25rem;
+}/*# sourceMappingURL=style.css.map */
