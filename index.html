@@ -14,7 +14,7 @@
 <body>
 	<header class="header" id="header">
 		<nav class="nav">
-			<div class="nav__menu">
+			<div class="nav__menu" id="nav-menu">
 				<ul class="nav__list">
 					<li class="nav__item">
 						<a href="#Home" class="nav__link">Главная</a>
@@ -32,6 +32,17 @@
 						<a href="#contacts" class="nav__link">Контакты</a>
 					</li>
 				</ul>
+				<i class="ri-close-line nav__close" id="nav-close"></i>
+				<div class="header__lang-mob">
+					<div class="ret">
+						<a href="#">RU</a>
+						|
+						<a href="./index_eng.html">ENG</a>
+					</div>
+				</div>
+			</div>
+			<div class="nav__toggle" id="nav-toggle">
+				<i class="ri-menu-line"></i>
 			</div>
 		</nav>
 		<div class="info">
@@ -45,7 +56,8 @@
 				</div>
 			</div>
 		</div>
-		<img src="./img/header.svg" alt="Denis_Novik">
+		<img src="./img/header.svg" alt="Denis_Novik" class="header__photo">
+		<img src="./img/header_mob.svg" alt="Denis_Novik" class="header__photo-mobile">
 	</header>
 
 	<section class="about container" id="about">
@@ -147,7 +159,7 @@
 		</p>
 	</section>
 
-
+	<script src="./js/script.js"></script>
 </body>
 
 </html>
