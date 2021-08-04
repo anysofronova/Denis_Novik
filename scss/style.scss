@@ -153,3 +153,25 @@ header {
 		}
 	}
 }
+
+.portfolio{
+	background-color: $bg-color;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	h2{
+		padding-bottom: 2.9rem;
+	}
+	img{
+		width: 100%;
+	}
+	a{
+		font-family: "Gilroy-Medium";
+		color: $black-color;
+		text-align: center;
+		font-size: 1.125rem;
+		padding-top: 2.8rem;
+		padding-bottom: 6.18rem;
+		text-decoration: underline;
+	}
+}

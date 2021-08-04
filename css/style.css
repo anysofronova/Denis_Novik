@@ -147,4 +147,26 @@ header img {
 }
 .skills .skills__programms .skills__one .skills__stars .grey-star {
   color: #828282;
+}
+
+.portfolio {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio h2 {
+  padding-bottom: 2.9rem;
+}
+.portfolio img {
+  width: 100%;
+}
+.portfolio a {
+  font-family: "Gilroy-Medium";
+  color: #070707;
+  text-align: center;
+  font-size: 1.125rem;
+  padding-top: 2.8rem;
+  padding-bottom: 6.18rem;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
